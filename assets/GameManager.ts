@@ -5,13 +5,12 @@ const { ccclass, property } = _decorator;
 export class GameManager extends Component {
 
     @property({ type: Node })
-    endScreen: Node = null!; // Slot for the EndScreen
+    endScreen: Node = null!; 
 
     public foundCount: number = 0;
-    private totalItems: number = 4; // Total objects to find
+    private totalItems: number = 4; 
 
     start() {
-        // 1. Ensure End Screen is hidden at start
         if (this.endScreen) {
             this.endScreen.active = false;
         }
@@ -21,7 +20,6 @@ export class GameManager extends Component {
         this.foundCount++;
         console.log("Found: " + this.foundCount);
 
-        // CHECK WIN CONDITION
         if (this.foundCount >= this.totalItems) {
             this.showWin();
         }
@@ -30,12 +28,11 @@ export class GameManager extends Component {
     private showWin() {
         console.log("Game Over - You Win!");
         if (this.endScreen) {
-            this.endScreen.active = true; // Show the screen
+            this.endScreen.active = true; 
         }
     }
 
     public onInstallClicked() {
         console.log("CTA Clicked");
-        // In a real ad, this is where you redirect to the App Store
     }
 }

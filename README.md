@@ -31,7 +31,7 @@ Attached to every hideable item (Apple, Key, etc.).
 ## 🚀 How to Run
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/KrishnaCodeCrafter/HiddenObject.git](https://github.com/KrishnaCodeCrafter/HiddenObject.git)
+    git clone https://github.com/KrishnaCodeCrafter/HiddenObject.git
     ```
 2.  **Open in Cocos Creator**
     * Open **Cocos Dashboard**.

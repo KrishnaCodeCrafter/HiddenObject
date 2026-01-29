@@ -48,4 +48,3 @@ Attached to every hideable item (Apple, Key, etc.).
 3.  **Play**
     * Open `assets/scene.scene`.
     * Click the **Play** button (Triangle icon) at the top.
-

@@ -13,6 +13,14 @@ Designed as a lightweight template for playable ads, featuring object interactio
 * **Engine:** Cocos Creator 3.8.8
 * **Language:** TypeScript
 
+
+## 📸 Video
+
+
+https://github.com/user-attachments/assets/d582e3d4-85c7-4ae7-ba1c-f382ca5df204
+
+
+
 ## 📂 Project Structure
 
 ### 1. `GameManager.ts` (The Brain)
@@ -41,4 +49,3 @@ Attached to every hideable item (Apple, Key, etc.).
     * Open `assets/Scene/GameScene.scene`.
     * Click the **Play** button (Triangle icon) at the top.
 
-## 📸 Video

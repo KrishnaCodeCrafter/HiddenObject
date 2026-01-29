@@ -46,6 +46,6 @@ Attached to every hideable item (Apple, Key, etc.).
     * Click **"Add"** and select the project folder.
     * Open the project (Editor version 3.8.8 recommended).
 3.  **Play**
-    * Open `assets/Scene/GameScene.scene`.
+    * Open `assets/scene.scene`.
     * Click the **Play** button (Triangle icon) at the top.
 
